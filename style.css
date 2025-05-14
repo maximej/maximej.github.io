@@ -1,0 +1,112 @@
+/* General Body Styling */
+body {
+    font-family: 'Campton', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #ff6666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Config Panel Styling */
+  #config-panel {
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 2001;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #config-panel::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .column-mapping-item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .column-mapping-item label {
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .column-mapping-item input {
+    flex-grow: 1;
+  }
+  
+  button {
+    margin-top: 10px;
+    background: #ff6666;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #ff4d4d;
+  }
+  
+  /* Popup Styling */
+  #popup {
+    display: none;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 204, 204, 1) 0%, rgba(255, 153, 153, 1) 50%, rgba(255, 102, 102, 1) 100%);
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+    z-index: 1000;
+    color: #333;
+  }
+  
+  #closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  #popup p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  div[ondblclick] {
+    font-family: 'Campton', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+  }

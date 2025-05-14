@@ -6,50 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@3.0.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
   <script src="api.js"></script>
-  <style>
-    #config-panel {
-      position: fixed;
-      top: 60px;
-      right: 10px;
-      background: #fff;
-      border: 1px solid #ccc;
-      display: none;
-      z-index: 2001;
-      width: 400px;
-      height: 150px;
-      padding: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    #config-panel::after {
-      content: "";
-      display: block;
-      clear: both;
-    }
-
-    .column-mapping-item {
-      display: flex;
-      margin-bottom: 10px;
-      align-items: center;
-    }
-
-    .column-mapping-item label {
-      margin-right: 10px;
-      width: 150px;
-    }
-
-    .column-mapping-item input {
-      flex-grow: 1;
-    }
-
-    button {
-      margin-top: 10px;
-    }
-
-    #titre {
-      margin-bottom: 0
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -68,7 +25,6 @@
     <div id="msg" style="color:red;"></div>
     <div class="chart-container"></div>
     <pre id="dump"></pre>
-
   </div>
 
   <div id="config-panel">
