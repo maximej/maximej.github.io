@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>DiplomatieTest</title>
+<title>MetiersdelaDiplomatieV3</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:.1em}0%,to{top:0px}}@keyframes shudder{25%{left:.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%,to{transform:translateX(0em)}5%,25%,45%{transform:translateX(-1em)}15%,35%,55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%,to{transform:translateY(0em)}5%,25%,45%{transform:translateY(-1em)}15%,35%,55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%,8.1%,82.1%,31.1%,38.1%,44.1%,40.1%,47.1%,74.1%,16.1%,27.1%,72.1%,24.1%,95.1%,6.1%,36.1%,20.1%,4.1%,91.1%,14.1%,87.1%,to{left:0px;top:0px}8%,82%,31%,38%,44%{left:-1px}40%,47%,74%,16%,27%{left:1px}72%,24%,95%,6%,36%{top:-1px}20%,4%,91%,14%,87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:.2}64%{opacity:.4}78%{opacity:.6}87%{opacity:.8}92%,to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:#000;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}tw-open-button[goto]{display:none}.debug-mode tw-open-button[replay],.debug-mode tw-open-button[goto]{display:inline}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 .5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,.5)}.debug-mode tw-expression[title]:not([title=""]){cursor:help}.debug-mode tw-hook{background-color:rgba(0,85,255,.1) !important}.debug-mode tw-hook::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,.1) !important}.debug-mode tw-collapsed::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 50%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0.25) 0%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,.2)}.debug-mode tw-enchantment{animation:enchantment .5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,.1)}.debug-mode tw-include::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}.debug-dialogs tw-backdrop:not(.eval-replay):not(.harlowe-crash){pointer-events:none;opacity:.1}tw-eval-replay tw-eval-code,tw-eval-replay tw-eval-explanation{max-height:20vh;overflow:auto;margin:10px auto}tw-eval-replay tw-eval-code{display:block;font-family:monospace;padding-bottom:1ex;border-bottom:2px solid gray}tw-eval-replay tw-eval-explanation{display:block;text-align:center}tw-eval-replay tw-eval-explanation>code{white-space:pre-wrap}tw-eval-replay tw-eval-explanation>code.from-block{width:40%;display:inline-block;text-align:left;max-height:4em;overflow-wrap:anywhere;overflow-y:scroll}tw-eval-replay tw-eval-explanation>code.from-block~.to-desc{width:calc(40% - 2em);margin-left:2em;display:inline-block}tw-eval-replay tw-eval-explanation>code.from-block+span::after{content:"..."}tw-eval-replay tw-eval-explanation>code.from-inline{text-align:right}tw-eval-replay tw-eval-explanation>:nth-child(2){white-space:pre}tw-eval-replay tw-eval-explanation>.to-desc{text-align:left}tw-eval-replay tw-eval-explanation>table{width:100%;margin-top:1em}tw-eval-replay tw-eval-explanation>table td{white-space:pre-wrap !important;word-wrap:anywhere}tw-eval-replay tw-eval-reason{text-align:center;font-size:80%;font-style:italic;display:block}tw-eval-replay tw-eval-it{text-align:center;font-size:80%;display:block}tw-eval-replay tw-dialog-links{display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:14em;min-height:1em;padding:0em .5em .5em 1em;font-size:1.25em;font-family:sans-serif;color:#262626;background-color:#fff;border-left:solid #262626 2px;border-top:solid #262626 2px;border-top-left-radius:.5em;opacity:1}tw-debugger.fade-panel:not(:hover){opacity:.33}tw-debugger.theme-dark{color:#d9d9d9;background-color:#000}tw-debugger.theme-dark{border-color:#d9d9d9 rgba(0,0,0,0) rgba(0,0,0,0) #d9d9d9}tw-debugger select{margin-right:1em;width:12em}tw-debugger button,tw-debugger tw-link{border-radius:3px;border:solid #999 1px;margin:auto 4px;color:#262626;background-color:#fff;cursor:pointer}tw-debugger button.enabled,tw-debugger tw-link.enabled{color:#000;background-color:#d9d9d9;box-shadow:inset #999 3px 5px .5em}tw-debugger.theme-dark button,tw-debugger.theme-dark tw-link{color:#d9d9d9;background-color:#000;border-color:#666}tw-debugger.theme-dark button.enabled,tw-debugger.theme-dark tw-link.enabled{color:#e6e6e6;background-color:#424242;box-shadow:inset #666 3px 5px .5em}tw-debugger button{font-size:1em;overflow-x:hidden;text-overflow:ellipsis;white-space:pre}tw-debugger tw-link{font-size:1.25em;border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-debugger tw-link:hover{border-color:#262626;color:#262626}tw-debugger.theme-dark tw-link:hover{border-color:#d9d9d9;color:#d9d9d9}tw-debugger tw-dialog{background-color:#fff;color:#000;font-size:1.25em}tw-debugger.theme-dark tw-dialog{background-color:#000;color:#e6e6e6}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;overflow-y:scroll;overflow-x:hidden;border:inherit;box-sizing:content-box;background-color:#fff;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger.theme-dark .panel{background-color:#000;border-bottom-color:#666}tw-debugger .panel-source .panel-row-buttons{width:2rem}tw-debugger .panel-source .source-tags{width:20%;font-style:italic}tw-debugger .panel-row-source td{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:8rem;padding:1rem}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background-color:#e6e6e6}tw-debugger .panel-tools .panel-rows>*,tw-debugger .panel-options .panel-rows>*{margin-top:.4rem;display:block}tw-debugger.theme-dark .panel-rows>div:nth-of-type(2n){background-color:#212121}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty+.panel-errors-bottom{display:none}tw-debugger.theme-dark .panel-variables .panel-rows:empty::before,tw-debugger.theme-dark .panel-enchantments .panel-rows:empty::before,tw-debugger.theme-dark .panel-errors .panel-rows:empty::before{color:#a8a8a8}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger th[data-col]{text-decoration:underline;cursor:pointer}tw-debugger th[data-col][data-order=asc]::after{content:"↓"}tw-debugger th[data-col][data-order=desc]::after{content:"↑"}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .storylet-exclusive,tw-debugger .storylet-urgent,tw-debugger .storylet-open{text-align:center}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:.8;font-size:.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#575757;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger.theme-dark .variable-type{color:#a8a8a8}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,.3)}tw-debugger .error-row>*{display:table-cell;padding:.25em .5em}tw-debugger .error-row .error-message[title]:not([title=""]){cursor:help}tw-debugger .error-row .error-passage{color:#575757}tw-debugger.theme-dark .error-row .error-passage{color:#a8a8a8}tw-debugger .storylet-row{background-color:rgba(193,240,225,.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(152,231,204,.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;background-color:#fff}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:#e6e6e6}tw-debugger .storylet-row.storylet-closed>:not(.storylet-lambda){opacity:.6}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .storylet-row .storylet-lambda{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere}tw-debugger.theme-dark .storylet-row.storylet-closed{background-color:#000}tw-debugger.theme-dark .storylet-row.storylet-closed:nth-child(2n){background-color:#212121}tw-debugger .tabs{padding-bottom:.5em}tw-debugger .tab{border-radius:0px 0px .5em .5em;border-top:none;top:-2px}tw-debugger .resizer-h{position:absolute;height:14em;border-left:2px solid #999;border-right:2px solid #999;top:10px;left:4px;width:8px;cursor:ew-resize}tw-debugger.theme-dark .resizer-h{border-color:rgba(0,0,0,0) #666}tw-debugger .resizer-v{position:absolute;height:8px;border-top:2px solid #999;border-bottom:2px solid #999;margin-bottom:4px;top:4px;left:10px;width:95%;cursor:ns-resize;box-sizing:border-box}tw-debugger.theme-dark .resizer-v{border-color:#666 rgba(0,0,0,0)}tw-debugger mark{color:inherit;background-color:rgba(101,230,230,.3) !important}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media(min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%;border:solid #fff !important}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop~tw-backdrop{display:none}tw-link,.enchantment-link{cursor:pointer;color:#4169e1;font-weight:bold;text-decoration:none;transition:color .2s ease-in-out}tw-passage [style^=color] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^=color][hover=true] tw-link:hover,tw-passage [style*=" color"][hover=true] tw-link:hover,tw-passage [style^=color] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^=color][hover=true] .enchantment-link:hover,tw-passage [style*=" color"][hover=true] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#dd4b39}.visited{color:#6941e1}tw-passage [style^=color] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^=color][hover=true] .visited:hover,tw-passage [style*=" color"][hover=true] .visited:hover{color:inherit}.visited:hover{color:#e3e}tw-broken-link{color:#933;border-bottom:2px solid #933;cursor:not-allowed}tw-passage [style^=color] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^=color][hover=true] tw-broken-link:hover,tw-passage [style*=" color"][hover=true] tw-broken-link:hover{color:inherit}tw-link.enchantment-mouseover,.link.enchantment-mouseover,tw-expression.enchantment-mouseover>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border-bottom:2px dashed #999}tw-link.enchantment-mouseover:hover,tw-link.enchantment-mouseover:active,.link.enchantment-mouseover:hover,.link.enchantment-mouseover:active,tw-expression.enchantment-mouseover>tw-link:hover,tw-expression.enchantment-mouseover>tw-link:active{color:inherit}tw-link.enchantment-mouseover.enchantment-button,.link.enchantment-mouseover.enchantment-button,tw-expression.enchantment-mouseover>tw-link.enchantment-button{border-style:dashed}tw-link.enchantment-mouseout,.link.enchantment-mouseout,tw-expression.enchantment-mouseout>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border:rgba(64,149,191,.6) 1px solid;border-radius:.2em}tw-link.enchantment-mouseout:hover,tw-link.enchantment-mouseout:active,.link.enchantment-mouseout:hover,.link.enchantment-mouseout:active,tw-expression.enchantment-mouseout>tw-link:hover,tw-expression.enchantment-mouseout>tw-link:active{color:inherit}tw-link.enchantment-mouseout:hover,.link.enchantment-mouseout:hover,tw-expression.enchantment-mouseout>tw-link:hover{background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 1px solid}tw-link.enchantment-dblclick,.link.enchantment-dblclick,tw-expression.enchantment-dblclick>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;cursor:pointer;border:2px solid #999;border-radius:0}tw-link.enchantment-dblclick:hover,tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:hover,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:hover,tw-expression.enchantment-dblclick>tw-link:active{color:inherit}tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:active{background-color:#999}tw-link.enchantment-button,.link.enchantment-button,.enchantment-button:not(.link) tw-link,.enchantment-button:not(.link) .link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}.enchantment-button{display:block}.enchantment-clickblock{cursor:pointer;width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,.5);transition:color .2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 .5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 .5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 2px solid;border-radius:.2em}.enchantment-dblclickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;cursor:pointer;border:2px solid #999}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia,serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media(min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:rgba(0,0,0,0);font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=text]{background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 .5em .5em .5em;vertical-align:middle}tw-story tw-noscript{animation:appear .8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media(min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*=width]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:.2;cursor:pointer}tw-icon[alt]:hover{opacity:.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:.2em;padding:.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:4px;border:1px solid rgba(255,255,255,.5);font-size:.8rem;margin:0 .2rem;padding:3px;white-space:pre}tw-folddown::after{content:"▶"}tw-folddown.open::after{content:"▼"}tw-open-button[replay]{display:none}tw-error tw-open-button,tw-eval-replay tw-open-button{display:inline !important}tw-open-button::after{content:attr(label)}tw-notifier{border-radius:.2em;padding:.2em;font-size:1rem;background-color:rgba(223,182,58,.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid #000;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:.3em 0 .6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,.6);background-color:#ff9}ins{color:rgba(0,0,0,.6);background-color:rgba(255,242,204,.5);border-radius:.5em;box-shadow:0em 0em .2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play DiplomatieTest.</tw-noscript></noscript></tw-story>
-<tw-storydata name="DiplomatieTest" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="51ccf27d-b8a9-44bd-a38e-25e2bb2847bc" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Diplomatie Interactive Decision Tree - Stylesheet */
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play MetiersdelaDiplomatieV3.</tw-noscript></noscript></tw-story>
+<tw-storydata name="MetiersdelaDiplomatieV3" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="e90ea0fb-08a4-4dac-8fa9-4739878c911a" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Diplomatie Interactive Decision Tree - Stylesheet */
 
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -258,6 +258,8 @@ tw-link.visited:hover {
     align-items: center;
     padding: 0.5em 1em;
     background-color: #e9f0fa;
+    cursor: pointer;
+    position: relative; /* For proper alignment in circle mode */
 }
 
 .social-links a i, 
@@ -271,28 +273,112 @@ tw-link.visited:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+    .social-links {
+        gap: 0.3em;
+    }
+    
+    .social-links a {
+        padding: 0.6em;
+        border-radius: 50%;
+        width: 2.2em;
+        height: 2.2em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-links a i,
+    .social-links a .fa {
+        margin-right: 0;
+        font-size: 1.2em;
+    }
+    
+    /* Hide text on small screens, only show icons */
+    .social-links a .button-text {
+        display: none;
+    }
+    
+    .sharing-instruction {
+        font-size: 1em;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
+}
+
+/* Even smaller screens */
+@media (max-width: 320px) {
+    .social-links {
+        gap: 0.2em;
+    }
+    
+    .social-links a {
+        width: 1.8em;
+        height: 1.8em;
+        padding: 0.4em;
+    }
+    
+    .social-links a i,
+    .social-links a .fa {
+        font-size: 1em;
+    }
+    
+    .sharing-instruction {
+        font-size: 0.8em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+
+/* Share */
+.social-links a:nth-child(1) {
+    color: #273475;
+    border-bottom: 2px solid #273475;
+}
+
+/* Download */
+.social-links a:nth-child(2) {
+    color: #3CB371;
+    border-bottom: 2px solid #3CB371;
+}
+
 /* Twitter */
-.social-links a[href*="twitter"] {
+.social-links a:nth-child(3) {
     color: #1DA1F2;
     border-bottom: 2px solid #1DA1F2;
 }
 
-/* Facebook */
-.social-links a[href*="facebook"] {
-    color: #4267B2;
-    border-bottom: 2px solid #4267B2;
-}
-
-/* Instagram */
-.social-links a[href*="instagram"] {
-    color: #C13584;
-    border-bottom: 2px solid #C13584;
-}
-
 /* LinkedIn */
-.social-links a[href*="linkedin"] {
+.social-links a:nth-child(4) {
     color: #0077B5;
     border-bottom: 2px solid #0077B5;
+}
+
+/* Override bottom borders for circular buttons on mobile */
+@media (max-width: 600px) {
+    .social-links a:nth-child(1),
+    .social-links a:nth-child(2),
+    .social-links a:nth-child(3),
+    .social-links a:nth-child(4) {
+        border: none;
+    }
+    
+    .social-links a:nth-child(1) { background-color: #e9f0fa; border: 2px solid #273475; }
+    .social-links a:nth-child(2) { background-color: #e9f0fa; border: 2px solid #3CB371; }
+    .social-links a:nth-child(3) { background-color: #e9f0fa; border: 2px solid #1DA1F2; }
+    .social-links a:nth-child(4) { background-color: #e9f0fa; border: 2px solid #0077B5; }
+    
+    /* Improved hover effect for mobile */
+    .social-links a:hover {
+        transform: scale(1.15);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    /* Active state for better touch feedback */
+    .social-links a:active {
+        transform: scale(0.95);
+        box-shadow: none;
+    }
 }
 
 /* Small text for additional links */
@@ -321,7 +407,207 @@ tw-link.visited:hover {
     color: var(--noir);
     line-height: 1em;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="700,275" size="100,100"># Avez-vous pensé aux métiers de la diplomatie ?
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
+  const script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js";
+  script.onload = function () {
+    console.log("html2canvas loaded successfully");
+  };
+  script.onerror = function () {
+    console.error("Failed to load html2canvas");
+  };
+  document.head.appendChild(script);
+})();
+
+// Share chart using the simplest approach that works everywhere
+function shareChart() {
+  const originalChart = document.getElementById("skillsRadarContainer");
+  if (!originalChart) {
+    console.error("Chart container not found");
+    return;
+  }
+  
+  // Create a temporary export container with proper sizing
+  const exportContainer = document.createElement('div');
+  exportContainer.style.cssText = `
+    position: fixed;
+    top: -2000px;
+    left: -2000px;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+  `;
+  
+  // Clone the original chart content
+  const chartClone = originalChart.cloneNode(true);
+  chartClone.style.cssText = `
+    width: 600px;
+    height: 600px;
+    margin: 0;
+  `;
+  
+  // Find and resize the radar-chart within the clone
+  const radarChart = chartClone.querySelector('.radar-chart');
+  if (radarChart) {
+    radarChart.style.width = '600px';
+    radarChart.style.height = '600px';
+    radarChart.style.margin = '0 auto';
+  }
+  
+  exportContainer.appendChild(chartClone);
+  document.body.appendChild(exportContainer);
+  
+  html2canvas(exportContainer, { 
+    useCORS: true,
+    width: 1000,
+    height: 1000,
+    backgroundColor: '#ffffff',
+    scale: 1,
+    logging: false
+  }).then(function(canvas) {
+    // Remove the temporary container
+    document.body.removeChild(exportContainer);
+    // Try to use the Web Share API first (works great on mobile)
+    if (navigator.share) {
+      canvas.toBlob(function(blob) {
+        const file = new File([blob], "profil-diplomatique.png", { type: "image/png" });
+        
+        // Try sharing with the file
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          navigator.share({
+            title: "Mon Profil Diplomatique",
+            text: "Voici mon profil de compétences diplomatiques!",
+            files: [file]
+          })
+          .catch((error) => {
+            console.log("Sharing failed", error);
+            downloadImage(canvas);
+          });
+        } else {
+          // Device can't share files, just download
+          downloadImage(canvas);
+        }
+      });
+    } else {
+      // Web Share API not available, just download
+      downloadImage(canvas);
+    }
+  }).catch(function(error) {
+    console.error("html2canvas failed:", error);
+  });
+}
+
+// Download the chart as an image
+function downloadImage(canvas) {
+  const link = document.createElement("a");
+  link.download = "profil-diplomatique.png";
+  link.href = canvas.toDataURL("image/png");
+  link.click();
+  
+  alert("L'image a été téléchargée. Pour la partager:\n\n" +
+        "1. Ouvrez l'application de réseau social de votre choix\n" +
+        "2. Créez une nouvelle publication\n" + 
+        "3. Joignez l'image que vous venez de télécharger");
+}
+
+// Legacy export function - renamed from exportChartAsImage
+function exportChartAsImage() {
+  const originalChart = document.getElementById("skillsRadarContainer");
+  if (!originalChart) {
+    console.error("Chart container not found");
+    return;
+  }
+
+  // Create a temporary export container with proper sizing
+  const exportContainer = document.createElement('div');
+  exportContainer.style.cssText = `
+    position: fixed;
+    top: -2000px;
+    left: -2000px;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+  `;
+  
+  // Clone the original chart content
+  const chartClone = originalChart.cloneNode(true);
+  chartClone.style.cssText = `
+    width: 600px;
+    height: 600px;
+    margin: 0;
+  `;
+  
+  // Find and resize the radar-chart within the clone
+  const radarChart = chartClone.querySelector('.radar-chart');
+  if (radarChart) {
+    radarChart.style.width = '600px';
+    radarChart.style.height = '600px';
+    radarChart.style.margin = '0 auto';
+  }
+  
+  exportContainer.appendChild(chartClone);
+  document.body.appendChild(exportContainer);
+
+  html2canvas(exportContainer, { 
+    useCORS: true,
+    width: 1000,
+    height: 1000,
+    backgroundColor: '#ffffff',
+    scale: 1,
+    logging: false
+  }).then(function(canvas) {
+    // Remove the temporary container
+    document.body.removeChild(exportContainer);
+    downloadImage(canvas);
+  }).catch(function(error) {
+    console.error("html2canvas failed:", error);
+  });
+}
+
+// Platform-specific share functions are simplified to use our main shareChart function
+function shareOnTwitter() {
+  shareChart();
+}
+
+function shareOnFacebook() {
+  shareChart();
+}
+
+function shareOnLinkedIn() {
+  shareChart();
+}
+
+// Make sharing functions globally available
+window.shareChart = shareChart;
+window.exportChartAsImage = exportChartAsImage;
+window.shareOnTwitter = shareOnTwitter;
+window.shareOnFacebook = shareOnFacebook;
+window.shareOnLinkedIn = shareOnLinkedIn;
+
+// Bind export button after passage loads
+const chartBindInterval = setInterval(() => {
+  const button = document.getElementById("exportSVG");
+  const chart = document.getElementById("skillsRadarContainer");
+
+  if (button && chart && !button.dataset.bound) {
+    button.dataset.bound = "true";
+    button.addEventListener("click", exportChartAsImage);
+    console.log("Chart export button bound");
+    clearInterval(chartBindInterval);
+  }
+}, 500);
+</script><tw-passagedata pid="1" name="Start" tags="" position="700,275" size="100,100"># Avez-vous pensé aux métiers de la diplomatie ?
 
 &lt;div class=&quot;path oui&quot;&gt;[[OUI-&gt;OUI]]&lt;/div&gt;&lt;div class=&quot;path&quot;&gt;[[PEUT-ÊTRE...]]&lt;/div&gt;&lt;div class=&quot;path non&quot;&gt;[[NON]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="OUI" tags="" position="500,500" size="100,100">#Oui, je pense aux métiers de la diplomatie
 {(set: $leadership to $leadership + 10)
@@ -441,13 +727,25 @@ Justement, la Direction du numérique a besoin de nouveaux talents !
 (display: &quot;Final&quot;)(display: &quot;Footer&quot;)}</tw-passagedata><tw-passagedata pid="22" name="Archives" tags="" position="1475,850" size="100,100"># Perso, je ne suis bien que dans les archives !
 {(set: $leadership to $leadership + 30)(set: $international to $international + 30)(set: $communication to $communication +10)(set: $languages to $languages + 10) 
 Parfait, les archives diplomatiques n&#39;attendent que vous !
-(display: &quot;Final&quot;)(display: &quot;Footer&quot;)}</tw-passagedata><tw-passagedata pid="23" name="Final" tags="" position="625,50" size="100,100">{
+(display: &quot;Final&quot;)(display: &quot;Footer&quot;)}</tw-passagedata><tw-passagedata pid="23" name="Final" tags="" position="625,100" size="100,100">{
 (display: &quot;SkillsChart&quot;)
+&lt;/div&gt;
 &lt;div class=&quot;cta&quot;&gt;&lt;a href=&quot;https://www.diplomatie.gouv.fr/fr/emplois-stages-concours/&quot; target=&quot;_blank&quot;&gt;ALORS REJOIGNEZ-NOUS !&lt;/a&gt;&lt;/div&gt;
+
 
 &lt;p&gt;En attendant, suivez nous sur les réseaux sociaux !&lt;/p&gt;
 &lt;div class=&quot;back-link&quot;&gt;(link-goto: &quot;Continuer&quot;, &quot;Start&quot;)(link: &quot;Recommencer&quot;)[(restart:)]&lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="24" name="Qualifie" tags="" position="600,900" size="100,100"># Je ne suis pas encore assez qualifié(e).
+&lt;!--&lt;div class=&quot;back-link&quot;&gt;(link-goto: &quot;Retour&quot;, (history:)&#39;s last)&lt;/div&gt;&lt;div id=&quot;footer&quot;&gt;
+--&gt;&lt;hr&gt;
+&lt;p style=&quot;text-align: center; margin-top: 1em;&quot; class=&quot;sharing-instruction&quot;&gt;Partagez votre profil de compétences diplomatiques :&lt;/p&gt;
+      &lt;div class=&quot;social-links&quot;&gt;
+        &lt;a href=&quot;javascript:void(0)&quot; onclick=&quot;shareChart()&quot; title=&quot;Partager l&#39;image&quot;&gt;&lt;i class=&quot;fa fa-share-alt&quot;&gt;&lt;/i&gt; &lt;span class=&quot;button-text&quot;&gt;Partager&lt;/span&gt;&lt;/a&gt;
+        &lt;a href=&quot;javascript:void(0)&quot; onclick=&quot;exportChartAsImage()&quot; title=&quot;Télécharger l&#39;image&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; &lt;span class=&quot;button-text&quot;&gt;Télécharger&lt;/span&gt;&lt;/a&gt;
+        &lt;a href=&quot;https://twitter.com/francediplo&quot; target=&quot;_blank&quot; title=&quot;Twitter France Diplomatie&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; &lt;span class=&quot;button-text&quot;&gt;Twitter&lt;/span&gt;&lt;/a&gt;
+        &lt;a href=&quot;https://www.linkedin.com/company/ministere-des-affaires-etrangeres-francais/&quot; target=&quot;_blank&quot; title=&quot;LinkedIn MEAE&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt; &lt;span class=&quot;button-text&quot;&gt;LinkedIn&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;&lt;p class=&quot;small-text&quot;&gt;Pour plus d&#39;informations, visitez &lt;a href=&quot;https://www.diplomatie.gouv.fr&quot; target=&quot;_blank&quot;&gt;diplomatie.gouv.fr&lt;/a&gt;. © 2025 Ministère de l&#39;Europe et des Affaires étrangères&lt;/p&gt;&lt;/div&gt;
+}
+</tw-passagedata><tw-passagedata pid="24" name="Qualifie" tags="" position="600,900" size="100,100"># Je ne suis pas encore assez qualifié(e).
 {(set: $negotiation to $negotiation + 10)(set: $communication to $communication + 20)(set: $international to $international + 20)
 Difficile sans avoir fait d&#39;études de sciences politiques ou de relations internationales.
 
@@ -459,16 +757,11 @@ Vous pourriez trouver votre place dans la (link-repeat: &quot;Réserve diplomati
 Il y a pleins de façons de découvrir nos (link-repeat: &quot;missions&quot;)[(open-url: &quot;https://www.decouvrirlemonde.jeunes.gouv.fr/les-affaires-etrangeres-un-monde-de-metiers-219&quot;)] : l’Académie diplomatique d’été, les stages, le volontariat international, l’alternance…
 
 (display: &quot;Final&quot;)(display: &quot;Footer&quot;)}
-</tw-passagedata><tw-passagedata pid="26" name="Footer" tags="" position="450,200" size="100,100">&lt;!--&lt;div class=&quot;back-link&quot;&gt;(link-goto: &quot;Retour&quot;, (history:)&#39;s last)&lt;/div&gt;&lt;div id=&quot;footer&quot;&gt;
---&gt;&lt;hr&gt;
-&lt;div class=&quot;social-links&quot;&gt;&lt;a href=&quot;https://twitter.com/francediplo&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Twitter&lt;/a&gt;
-        &lt;a href=&quot;https://www.facebook.com/francediplomatie&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; Facebook&lt;/a&gt;
-        &lt;a href=&quot;https://www.instagram.com/francediplo&quot; target=&quot;_blank&quot; title=&quot;Instagram&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt; Instagram&lt;/a&gt;
-        &lt;a href=&quot;https://www.linkedin.com/company/ministere-des-affaires-etrangeres-francais/&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt; LinkedIn&lt;/a&gt; &lt;/div&gt;&lt;p class=&quot;small-text&quot;&gt;Pour plus d&#39;informations, visitez &lt;a href=&quot;https://www.diplomatie.gouv.fr&quot; target=&quot;_blank&quot;&gt;diplomatie.gouv.fr&lt;/a&gt;. © 2025 Ministère de l&#39;Europe et des Affaires étrangères&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="Difficile" tags="" position="225,675" size="100,100"># Difficile sans avoir fait d&#39;études de sciences politiques ou de relations internationales.
+</tw-passagedata><tw-passagedata pid="26" name="Footer" tags="" position="325,200" size="100,100"></tw-passagedata><tw-passagedata pid="27" name="Difficile" tags="" position="225,675" size="100,100"># Difficile sans avoir fait d&#39;études de sciences politiques ou de relations internationales.
 {(set: $negotiation to $negotiation + 10)(set: $communication to $communication + 20)(set: $international to $international + 20)
 Au contraire, les métiers du MEAE sont marqués par une grande diversité et font appel à des talents aux compétences multiples et complémentaires.
 (display: &quot;Final&quot;)(display: &quot;Footer&quot;)}
-</tw-passagedata><tw-passagedata pid="28" name="SkillsChart" tags="" position="450,75" size="100,100"># Votre Profil Diplomatique
+</tw-passagedata><tw-passagedata pid="28" name="SkillsChart" tags="" position="475,175" size="100,100"># Votre Profil Diplomatique
 {
 &lt;!-- First, let&#39;s directly output variables for debugging --&gt;
 &lt;div style=&quot;display:none&quot;&gt;
@@ -531,8 +824,8 @@ Au contraire, les métiers du MEAE sont marqués par une grande diversité et fo
 }
 
 .radar-chart-polygon {
-  position: absolute;
-  top: 0;
+  position: relative; /* or remove if not needed */
+  z-index: 1;  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -569,7 +862,7 @@ Au contraire, les métiers du MEAE sont marqués par une grande diversité et fo
 }
 
 &lt;/style&gt;
-
+&lt;div id=&quot;myChart&quot;&gt;
 &lt;!-- Add hidden spans with the actual values that JavaScript can read --&gt;
 &lt;span id=&quot;languages-value&quot; style=&quot;display:none&quot;&gt;(print: $languages)&lt;/span&gt;
 &lt;span id=&quot;negotiation-value&quot; style=&quot;display:none&quot;&gt;(print: $negotiation)&lt;/span&gt;
@@ -577,8 +870,8 @@ Au contraire, les métiers du MEAE sont marqués par une grande diversité et fo
 &lt;span id=&quot;international-value&quot; style=&quot;display:none&quot;&gt;(print: $international)&lt;/span&gt;
 &lt;span id=&quot;crisis-value&quot; style=&quot;display:none&quot;&gt;(print: $crisis)&lt;/span&gt;
 &lt;span id=&quot;leadership-value&quot; style=&quot;display:none&quot;&gt;(print: $leadership)&lt;/span&gt;
-
 &lt;div id=&quot;skillsRadarContainer&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;script&gt;
 /**
@@ -679,7 +972,7 @@ function createRadarChart(elementId, skillsData, options) {
     var pointY = Math.sin(radians) * value * 50 + 50;
     
     // Add to clip path
-    clipPathPoints.push(pointX + &#39;% &#39; + pointY + &#39;%&#39;);
+  clipPathPoints.push(pointX + &quot;,&quot; + pointY);
     
     // Store data point
     dataPoints.push({ 
@@ -693,13 +986,25 @@ function createRadarChart(elementId, skillsData, options) {
   // Create data polygon
   var clipPath = &#39;polygon(&#39; + clipPathPoints.join(&#39;, &#39;) + &#39;)&#39;;
   
-  // Create data visualization
-  var dataVisual = document.createElement(&#39;div&#39;);
-  dataVisual.className = &#39;radar-chart-polygon&#39;;
-  dataVisual.style.setProperty(&#39;--clip-path&#39;, clipPath);
-  dataVisual.style.backgroundColor = chartOptions.dataColor;
-  dataVisual.style.borderColor = chartOptions.borderColor;
-  chart.appendChild(dataVisual);
+// Create SVG polygon instead of clipped div
+var svg = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;svg&quot;);
+svg.setAttribute(&quot;width&quot;, &quot;100%&quot;);
+svg.setAttribute(&quot;height&quot;, &quot;100%&quot;);
+svg.setAttribute(&quot;viewBox&quot;, &quot;0 0 100 100&quot;);
+svg.style.position = &quot;absolute&quot;;
+svg.style.top = &quot;0&quot;;
+svg.style.left = &quot;0&quot;;
+svg.style.zIndex = &quot;1&quot;;
+
+var polygon = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;polygon&quot;);
+polygon.setAttribute(&quot;points&quot;, clipPathPoints.join(&quot; &quot;));
+polygon.setAttribute(&quot;fill&quot;, chartOptions.dataColor);
+polygon.setAttribute(&quot;stroke&quot;, chartOptions.borderColor);
+polygon.setAttribute(&quot;stroke-width&quot;, &quot;1&quot;);
+
+svg.appendChild(polygon);
+chart.appendChild(svg);
+
   
   // Create data points with tooltips
   for (var n = 0; n &lt; dataPoints.length; n++) {
@@ -785,7 +1090,87 @@ setTimeout(function() {
 (set: $communication to 20)
 (set: $international to 20)
 (set: $crisis to 20)
-(set: $leadership to 20)}</tw-passagedata></tw-storydata>
+(set: $leadership to 20)}</tw-passagedata><tw-passagedata pid="30" name="MEAELogo" tags="header" position="975,75" size="100,100">{
+&lt;!-- Create a div to contain the SVG --&gt;
+&lt;div style=&quot;width: 30%; max-width: 600px; margin-left: 10px, margin: 0 auto;&quot;&gt;
+&lt;!-- French Ministry logo SVG --&gt;
+&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 902.41 825.15&quot;&gt;
+  &lt;style&gt;
+    .cls-1{fill:none;}
+    .cls-2{fill:#273375;}
+    .cls-3{fill:#1d1d1b;}
+    .cls-4{fill:#e30613;}
+    .cls-5{fill:#9d9d9c;}
+  &lt;/style&gt;
+  &lt;g id=&quot;vect&quot;&gt;
+    &lt;!-- Text Elements (MINISTÈRE) --&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M83.99,209.58h16.15l15.25,25.98,15.25-25.98h16.15v63.16h-12.81v-44.93l-14.08,23.28h-9.02l-14.08-23.28v44.93h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M164.39,209.58h12.81v63.16h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M194.88,209.58h16.42l28.24,45.2v-45.2h12.81v63.16h-16.42l-28.24-45.38v45.38h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M270.04,209.58h12.81v63.16h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M304.15,255.41c3.79,4.87,8.84,7.76,13.98,7.76s8.12-2.71,8.12-7.31c0-11.28-28.87-8.75-28.87-29.77,0-10.01,8.21-18.32,20.21-18.32,9.47,0,16.78,4.24,22.11,10.65l-9.38,8.39c-3.7-4.78-7.85-7.85-12.63-7.85-4.42,0-7.31,2.89-7.31,6.59,0,11.28,28.87,8.66,28.87,30.04-.18,11.73-9.38,18.95-20.93,18.95-10.65,0-17.86-3.88-23.46-10.56l9.29-8.57Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M345.75,209.58h51.79v11.64h-19.49v51.52h-12.81v-51.52h-19.49v-11.64Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M408.82,209.58h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16ZM409.9,191.98h13.17l10.2,12.18h-11.73l-11.64-12.18Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M460.52,209.58h19.31c13.89,0,22.47,7.13,22.47,18.86,0,7.58-3.7,13.26-10.11,16.33l19.85,27.97h-15.34l-16.78-25.53h-6.59v25.53h-12.81v-63.16ZM473.33,220.49v15.79h7.22c5.41,0,8.57-2.89,8.57-8.03,0-4.78-3.16-7.76-8.57-7.76h-7.22Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M519.98,209.58h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    
+    &lt;!-- Text Elements (DE L&#39;EUROPE) --&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M83.99,300.65h24.81c20.03,0,33.56,14.53,33.56,31.58s-13.53,31.58-33.56,31.58h-24.81v-63.16ZM96.81,312.29v39.88h12.18c11.73,0,20.21-8.75,20.21-19.94s-8.48-19.94-20.21-19.94h-12.18Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M154.73,300.65h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M229.89,300.65h12.81v51.52h24v11.64h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M270.32,326.63l-1.44-25.99h12.81l-1.35,25.99h-10.02Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M295.85,300.65h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M384.45,300.65h12.81v38.44c0,16.6-9.74,26.53-25.62,26.53s-25.53-9.92-25.53-26.53v-38.44h12.81v39.52c0,8.48,4.78,13.44,12.81,13.44s12.72-4.96,12.72-13.44v-39.52Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M413.15,300.65h19.31c13.89,0,22.47,7.13,22.47,18.86,0,7.58-3.7,13.26-10.1,16.33l19.85,27.97h-15.34l-16.78-25.53h-6.59v25.53h-12.81v-63.16ZM425.96,311.56v15.79h7.22c5.41,0,8.57-2.89,8.57-8.03,0-4.78-3.16-7.76-8.57-7.76h-7.22Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M533.6,332.22c0,18.04-13.62,33.38-33.47,33.38s-33.56-15.34-33.56-33.38,13.62-33.38,33.56-33.38,33.47,15.34,33.47,33.38ZM520.43,332.22c0-12.09-8.48-21.38-20.3-21.38s-20.39,9.29-20.39,21.38,8.48,21.38,20.39,21.38,20.3-9.29,20.3-21.38Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M545.87,300.65h20.84c13.89,0,22.38,7.13,22.38,18.86s-8.48,18.77-22.38,18.77h-8.03v25.53h-12.81v-63.16ZM558.68,311.56v15.79h8.57c5.41,0,8.66-2.89,8.66-8.03,0-4.78-3.25-7.76-8.66-7.76h-8.57Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M599.65,300.65h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    
+    &lt;!-- Text Elements (ET AFFAIRES) --&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M83.99,391.72h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M130.55,391.72h51.79v11.64h-19.49v51.52h-12.81v-51.52h-19.49v-11.64Z&quot;/&gt;
+    
+    &lt;path class=&quot;cls-3&quot; d=&quot;M217.08,391.72h24.81c20.03,0,33.56,14.53,33.56,31.58s-13.53,31.58-33.56,31.58h-24.81v-63.16ZM229.89,403.36v39.88h12.18c11.73,0,20.21-8.75,20.21-19.94s-8.48-19.94-20.21-19.94h-12.18Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M287.82,391.72h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M343.13,437.55c3.79,4.87,8.84,7.76,13.98,7.76s8.12-2.71,8.12-7.31c0-11.28-28.87-8.75-28.87-29.77,0-10.02,8.21-18.32,20.21-18.32,9.47,0,16.78,4.24,22.11,10.65l-9.38,8.39c-3.7-4.78-7.85-7.85-12.63-7.85-4.42,0-7.31,2.89-7.31,6.59,0,11.28,28.87,8.66,28.87,30.05-.18,11.73-9.38,18.95-20.93,18.95-10.65,0-17.86-3.88-23.46-10.56l9.29-8.57Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M431.1,391.72h16.78l23.91,63.16h-13.62l-6.04-16.42h-25.26l-6.04,16.42h-13.62l23.91-63.16ZM448.15,427.54l-8.66-23.73-8.66,23.73h17.32Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M481.54,391.72h36.81v10.92h-24v14.62h20.39v10.92h-20.39v26.71h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M529.63,391.72h36.81v10.92h-24v14.62h20.39v10.92h-20.39v26.71h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M587.83,391.72h16.78l23.91,63.16h-13.62l-6.04-16.42h-25.26l-6.04,16.42h-13.62l23.91-63.16ZM604.88,427.54l-8.66-23.73-8.66,23.73h17.32Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M638.27,391.72h12.81v63.16h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M668.76,391.72h19.31c13.89,0,22.47,7.13,22.47,18.86,0,7.58-3.7,13.26-10.11,16.33l19.85,27.97h-15.34l-16.78-25.53h-6.59v25.53h-12.81v-63.16ZM681.57,402.63v15.79h7.22c5.41,0,8.57-2.89,8.57-8.03,0-4.78-3.16-7.76-8.57-7.76h-7.22Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M728.22,391.72h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M783.53,437.55c3.79,4.87,8.84,7.76,13.98,7.76s8.12-2.71,8.12-7.31c0-11.28-28.87-8.75-28.87-29.77,0-10.02,8.21-18.32,20.21-18.32,9.47,0,16.78,4.24,22.11,10.65l-9.38,8.39c-3.7-4.78-7.85-7.85-12.63-7.85-4.42,0-7.31,2.89-7.31,6.59,0,11.28,28.87,8.66,28.87,30.05-.18,11.73-9.38,18.95-20.93,18.95-10.65,0-17.86-3.88-23.46-10.56l9.29-8.57Z&quot;/&gt;
+    
+    &lt;!-- Text Elements (ÉTRANGÈRES) --&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M83.99,482.79h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16ZM96.45,477.37l10.2-12.18h13.17l-11.73,12.18h-11.64Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M130.55,482.79h51.79v11.64h-19.49v51.52h-12.81v-51.52h-19.49v-11.64Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M193.62,482.79h19.31c13.89,0,22.47,7.13,22.47,18.86,0,7.58-3.7,13.26-10.1,16.33l19.85,27.97h-15.34l-16.78-25.53h-6.59v25.53h-12.81v-63.16ZM206.43,493.71v15.79h7.22c5.41,0,8.57-2.89,8.57-8.03,0-4.78-3.16-7.76-8.57-7.76h-7.22Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M271.76,482.79h16.78l23.91,63.16h-13.62l-6.04-16.42h-25.26l-6.04,16.42h-13.62l23.91-63.16ZM288.81,518.61l-8.66-23.73-8.66,23.73h17.32Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M322.2,482.79h16.42l28.24,45.2v-45.2h12.81v63.16h-16.42l-28.24-45.38v45.38h-12.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M441.12,530.25v-10.65h-16.06v-11.64h28.87v26.89c-5.86,7.85-15.7,12.9-27.52,12.9-20.48,0-34.47-15.34-34.47-33.38s13.62-33.38,33.56-33.38c11.46,0,20.84,5.14,26.62,12.81l-10.11,7.85c-3.61-5.14-9.29-8.66-16.51-8.66-11.91,0-20.39,9.29-20.39,21.38s8.93,21.38,21.29,21.38c5.96,0,11.1-2.08,14.71-5.5Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M468.19,482.79h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16ZM469.27,465.19h13.17l10.2,12.18h-11.73l-11.64-12.18Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M519.89,482.79h19.31c13.89,0,22.46,7.13,22.46,18.86,0,7.58-3.7,13.26-10.1,16.33l19.85,27.97h-15.34l-16.78-25.53h-6.59v25.53h-12.81v-63.16ZM532.7,493.71v15.79h7.22c5.41,0,8.57-2.89,8.57-8.03,0-4.78-3.16-7.76-8.57-7.76h-7.22Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M579.35,482.79h36.81v10.92h-24v14.62h20.39v10.92h-20.39v15.79h24v10.92h-36.81v-63.16Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M634.66,528.62c3.79,4.87,8.84,7.76,13.98,7.76s8.12-2.71,8.12-7.31c0-11.28-28.87-8.75-28.87-29.77,0-10.01,8.21-18.32,20.21-18.32,9.47,0,16.78,4.24,22.11,10.65l-9.38,8.39c-3.7-4.78-7.85-7.85-12.63-7.85-4.42,0-7.31,2.89-7.31,6.59,0,11.28,28.87,8.66,28.87,30.04-.18,11.73-9.38,18.95-20.93,18.95-10.65,0-17.86-3.88-23.46-10.56l9.29-8.57Z&quot;/&gt;
+    
+    &lt;!-- Additional text below (French Republic section) --&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M289.52,720.53c1.71,0,3.2,1.3,2.41,4.58l-7.96,1.85c1.39-3.7,3.7-6.44,5.56-6.44M293.92,733.36h-1.57c-1.99,2.36-4.12,4.21-6.25,4.21s-3.29-1.3-3.29-4.21c0-1.2.14-2.41.37-3.52l12.83-4.21c2.5-5.93-.51-8.52-4.03-8.52-6.07,0-12.97,10.14-12.97,19.03,0,3.98,1.9,6.16,4.86,6.16,3.47,0,7.08-3.38,10.05-8.94M291.37,714.74l9.03-8.43v-.97h-4.86l-5.56,9.4h1.39ZM263.68,720.67h4.26l-6.76,18.48c-.6,1.57.23,3.15,1.85,3.15,3.84,0,10.05-3.8,12.23-8.98h-1.2c-1.71,1.81-5,4.21-7.83,4.72l6.21-17.37h6.34l.79-2.64h-6.16l2.36-6.67h-2.45l-4.4,6.67-5.23.74v1.9ZM257.94,719.79c.51-1.71-.65-2.69-1.53-2.69-3.7,0-8.1,3.33-9.86,8.01h1.2c1.2-1.71,3.24-3.61,5.14-3.94l-7.08,18.43c-.65,1.71.65,2.69,1.53,2.69,3.52,0,7.64-3.38,9.4-8.01h-1.2c-1.2,1.71-3.24,3.61-5.14,3.94l7.55-18.43ZM259.23,710.53c1.67,0,3.06-1.34,3.06-3.06s-1.39-3.06-3.06-3.06-3.06,1.39-3.06,3.06,1.34,3.06,3.06,3.06M218.44,738.87c-.93,2.08.05,3.43,2.08,3.43,1.25,0,1.81-.32,2.32-1.67l4.91-13.01c2.27-2.78,6.95-5.74,8.8-5.74,1.34,0,1.16,1.11.28,2.78l-7.55,14.49c-.74,1.44.23,3.15,1.85,3.15,3.7,0,8.1-3.33,9.86-8.01h-1.2c-1.2,1.71-3.24,3.61-5.14,3.94l6.48-13.1c.83-1.67,1.25-3.24,1.25-4.49,0-2.13-1.2-3.52-3.43-3.52-3.2,0-6.44,3.61-10.28,8.06v-3.43c0-2.45-.79-4.63-3.01-4.63-1.39,0-2.73,1.2-3.98,2.92v.46c2.41-.14,3.47,3.47,1.76,7.27l-5,11.11ZM218.35,722.75c.88-3.01.42-5.65-1.9-5.65-2.73,0-3.43,2.08-6.21,8.06v-3.43c0-2.45-.79-4.63-3.01-4.63-2.59,0-4.95,4.03-6.76,8.01h1.2c1.25-1.81,2.41-2.87,3.33-2.87,1.11,0,1.71,1.71,0,5.51l-5,11.11c-.93,2.08.05,3.43,2.08,3.43,1.25,0,1.81-.32,2.32-1.67l4.91-13.01c1.39-1.71,2.64-3.2,4.21-4.86h4.82ZM189.91,720.53c1.71,0,3.2,1.3,2.41,4.58l-7.96,1.85c1.39-3.7,3.7-6.44,5.56-6.44M194.31,733.36h-1.57c-1.99,2.36-4.12,4.21-6.25,4.21s-3.29-1.3-3.29-4.21c0-1.2.14-2.41.37-3.52l12.83-4.21c2.5-5.93-.51-8.52-4.03-8.52-6.07,0-12.97,10.14-12.97,19.03,0,3.98,1.9,6.16,4.86,6.16,3.47,0,7.08-3.38,10.05-8.94M164.08,720.67h4.26l-6.76,18.48c-.6,1.57.23,3.15,1.85,3.15,3.84,0,10.05-3.8,12.23-8.98h-1.2c-1.71,1.81-5,4.21-7.83,4.72l6.21-17.37h6.34l.79-2.64h-6.16l2.36-6.67h-2.45l-4.4,6.67-5.23.74v1.9ZM140.69,735.07c0-5.7,6.34-13.43,9.91-13.43.79,0,1.53.09,2.18.28l-3.7,9.86c-2.13,2.59-5.42,5.74-6.95,5.74-.88,0-1.44-.74-1.44-2.45M160.19,716.04l-1.94-.14-2.18,2.13h-.46c-10.56,0-19.68,11.85-19.68,20.47,0,2.41,1.48,3.8,3.8,3.8,2.73,0,5.42-3.89,8.43-8.06l-.14,1.48c-.37,4.26.93,6.58,3.15,6.58,2.59,0,4.95-4.03,6.76-8.01h-1.2c-1.25,1.81-2.41,2.87-3.33,2.87-.97,0-1.67-1.76,0-5.51l6.81-15.61ZM137.68,722.75c.88-3.01.42-5.65-1.9-5.65-2.73,0-3.43,2.08-6.21,8.06v-3.43c0-2.45-.79-4.63-3.01-4.63-2.59,0-4.95,4.03-6.76,8.01h1.2c1.25-1.81,2.41-2.87,3.33-2.87,1.11,0,1.71,1.71,0,5.51l-5,11.11c-.93,2.08.05,3.43,2.08,3.43,1.25,0,1.81-.32,2.32-1.67l4.91-13.01c1.39-1.71,2.64-3.2,4.21-4.86h4.82ZM102.21,741.37l.46-1.44c-6.16-1.16-6.95-1.16-4.49-7.87l2.5-6.9h6.81c3.06,0,3.1,1.25,2.64,4.58h1.76l4.08-11.16h-1.76c-1.53,2.64-2.73,4.58-6.07,4.58h-6.71l3.57-9.77c1.11-3.1,1.76-3.75,5.93-3.75h2.96c4.31,0,4.82,1.16,4.82,5.51h1.71l1.44-7.59h-25.56l-.46,1.44c4.95,1.02,5.42,1.48,3.1,7.87l-5.56,15.19c-2.32,6.34-3.29,6.85-8.98,7.87l-.42,1.44h18.24Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M227.52,662.65c1.71,0,3.2,1.3,2.41,4.58l-7.96,1.85c1.39-3.7,3.7-6.44,5.56-6.44M231.91,675.47h-1.57c-1.99,2.36-4.12,4.21-6.25,4.21s-3.29-1.3-3.29-4.21c0-1.2.14-2.41.37-3.52l12.83-4.21c2.5-5.93-.51-8.52-4.03-8.52-6.07,0-12.97,10.14-12.97,19.03,0,3.98,1.9,6.16,4.86,6.16,3.47,0,7.08-3.38,10.05-8.94M229.37,656.86l9.03-8.43v-.97h-4.86l-5.56,9.4h1.39ZM201.68,662.79h4.26l-6.76,18.48c-.6,1.57.23,3.15,1.85,3.15,3.84,0,10.05-3.8,12.23-8.98h-1.2c-1.71,1.81-5,4.21-7.83,4.72l6.21-17.37h6.34l.79-2.64h-6.16l2.36-6.67h-2.45l-4.4,6.67-5.23.74v1.9ZM195.93,661.91c.51-1.71-.65-2.69-1.53-2.69-3.7,0-8.1,3.33-9.86,8.01h1.2c1.2-1.71,3.24-3.61,5.14-3.94l-7.08,18.43c-.65,1.71.65,2.69,1.53,2.69,3.52,0,7.64-3.38,9.4-8.01h-1.2c-1.2,1.71-3.24,3.61-5.14,3.94l7.55-18.43ZM197.23,652.65c1.67,0,3.06-1.34,3.06-3.06s-1.39-3.06-3.06-3.06-3.06,1.39-3.06,3.06,1.34,3.06,3.06,3.06M172.6,680.34l12.92-33.85-.42-.51-8.1.93v.97l1.57,1.2c1.44,1.11.97,2.18-.32,5.6l-10.09,26.58c-.74,1.44.23,3.15,1.85,3.15,3.7,0,7.64-3.33,9.4-8.01h-1.2c-1.2,1.71-3.7,3.61-5.6,3.94M148.05,677.19c0-5.7,6.34-13.43,9.91-13.43.79,0,1.53.09,2.18.28l-3.7,9.86c-2.13,2.59-5.42,5.74-6.95,5.74-.88,0-1.44-.74-1.44-2.45M167.55,658.16l-1.94-.14-2.18,2.13h-.46c-10.56,0-19.68,11.85-19.68,20.47,0,2.41,1.48,3.8,3.8,3.8,2.73,0,5.42-3.89,8.43-8.06l-.14,1.48c-.37,4.26.93,6.58,3.15,6.58,2.59,0,4.95-4.03,6.76-8.01h-1.2c-1.25,1.81-2.41,2.87-3.33,2.87-.97,0-1.67-1.76,0-5.51l6.81-15.61ZM120.41,688.9c0-2.45,2.36-3.98,5.74-5.33,1.11.56,2.78,1.16,5,1.9,3.52,1.16,4.86,1.62,4.86,2.69,0,2.27-3.84,3.98-9.08,3.98-4.4,0-6.53-.93-6.53-3.24M129.99,673.95c-1.53,0-2.13-1.3-2.13-2.78,0-4.12,2.22-10.19,5.7-10.19,1.53,0,2.13,1.3,2.13,2.78,0,4.12-2.22,10.19-5.7,10.19M140.04,686.63c0-2.96-2.64-4.03-6.95-5.33-3.7-1.11-5.37-1.44-5.37-2.64,0-.97.79-2.13,2.36-2.96,6.07-.32,10-5.79,10-10.37,0-.97-.19-1.81-.51-2.55h5.14l.79-2.64h-8.15c-.97-.6-2.13-.93-3.29-.93-6.44,0-10.6,5.65-10.6,10.23,0,3.47,2.22,5.65,4.91,6.16-3.01,1.34-4.68,2.92-4.68,4.77,0,1.07.37,1.81,1.25,2.5-6.95,2.04-9.68,4.35-9.68,7.64s4.21,4.54,9.22,4.54c8.47,0,15.56-4.58,15.56-8.43M107.67,666.82c3.06,0,3.1,1.25,2.64,4.58h1.76l4.08-11.16h-1.76c-1.53,2.64-2.73,4.58-6.07,4.58h-6.71l3.38-9.31c1.11-3.1,1.76-3.7,5.93-3.7h2.96c4.31,0,4.82,1.16,4.82,5.46h1.71l1.44-7.59h-25.56l-.46,1.44c4.95,1.02,5.42,1.48,3.1,7.87l-5.56,15.19c-2.32,6.34-3.29,6.85-8.98,7.87l-.42,1.44h28.43l5.09-8.06h-1.94c-3.24,3.06-7.32,5.97-13.01,5.97-7.55,0-6.85-.32-4.35-7.22l2.69-7.36h6.81ZM111.38,647.41l9.03-6.21v-.97h-5.46l-5,7.18h1.44Z&quot;/&gt;
+    &lt;path class=&quot;cls-3&quot; d=&quot;M224.5,604.76c1.71,0,3.2,1.3,2.41,4.58l-7.96,1.85c1.39-3.7,3.7-6.44,5.56-6.44M228.9,617.59h-1.57c-1.99,2.36-4.12,4.21-6.25,4.21s-3.29-1.3-3.29-4.21c0-1.2.14-2.41.37-3.52l12.83-4.21c2.5-5.93-.51-8.52-4.03-8.52-6.07,0-12.97,10.14-12.97,19.03,0,3.98,1.9,6.16,4.86,6.16,3.47,0,7.08-3.38,10.05-8.94M226.36,598.98l9.03-8.43v-.97h-4.86l-5.56,9.4h1.39ZM199.82,604.9h3.38l-6.76,18.48c-.6,1.57.23,3.15,1.85,3.15,3.84,0,10.05-3.8,12.23-8.98h-1.2c-1.71,1.81-5,4.21-7.83,4.72l6.21-17.37h6.34l.79-2.64h-6.16l2.36-6.67h-2.45l-4.4,6.67-4.35.74v1.9ZM196.49,606.99c.88-3.01.42-5.65-1.9-5.65-2.73,0-3.43,2.08-6.21,8.06v-3.43c0-2.45-.79-4.63-3.01-4.63-2.59,0-4.95,4.03-6.76,8.01h1.2c1.25-1.81,2.41-2.87,3.33-2.87,1.11,0,1.71,1.71,0,5.51l-5,11.11c-.93,2.08.05,3.43,2.08,3.43,1.25,0,1.81-.32,2.32-1.67l4.91-13.01c1.39-1.71,2.64-3.2,4.21-4.86h4.82ZM168.06,604.76c1.71,0,3.2,1.3,2.41,4.58l-7.96,1.85c1.39-3.7,3.7-6.44,5.56-6.44M172.46,617.59h-1.57c-1.99,2.36-4.12,4.21-6.25,4.21s-3.29-1.3-3.29-4.21c0-1.2.14-2.41.37-3.52l12.83-4.21c2.5-5.93-.51-8.52-4.03-8.52-6.07,0-12.97,10.14-12.97,19.03,0,3.98,1.9,6.16,4.86,6.16,3.47,0,7.08-3.38,10.05-8.94M141.01,622.78c-1.25,0-3.06-1.16-3.06-2.18,0-.32.56-1.76,1.25-3.57l2.08-5.51c2.22-2.64,5.6-5.46,7.5-5.46,1.16,0,2.04.74,2.04,2.45,0,5.05-4.72,14.26-9.82,14.26M155.6,606.48c0-3.75-1.39-5.14-3.98-5.14-3.24,0-6.3,3.43-9.35,7.59l7.73-20.33-.42-.51-8.1.93v.97l1.57,1.2c1.44,1.11.97,2.27-.32,5.6l-8.34,21.49c-.6,1.57-1.34,3.43-1.34,3.94,0,2.22,3.01,4.31,5.74,4.31,6.3,0,16.81-11.35,16.81-20.05M130.41,604.02c.51-1.71-.65-2.69-1.53-2.69-3.7,0-8.1,3.33-9.86,8.01h1.2c1.2-1.71,3.24-3.61,5.14-3.94l-7.08,18.43c-.65,1.71.65,2.69,1.53,2.69,3.52,0,7.64-3.38,9.4-8.01h-1.2c-1.2,1.71-3.24,3.61-5.14,3.94l7.55-18.43ZM131.71,594.76c1.67,0,3.06-1.34,3.06-3.06s-1.39-3.06-3.06-3.06-3.06,1.39-3.06,3.06,1.34,3.06,3.06,3.06M113.05,591.8h-16.86l-.46,1.44c4.95,1.02,5.42,1.48,3.1,7.87l-5.46,15.19c-2.32,6.34-3.29,6.85-8.98,7.87l-.42,1.44h25.65l5.56-9.91h-1.94c-3.15,3.47-6.85,7.83-12.55,7.83-4.31,0-4.82-.74-2.5-7.22l5.46-15.19c2.27-6.34,3.29-6.85,8.98-7.87l.42-1.44Z&quot;/&gt;
+
+    &lt;!-- Blue section of the flag --&gt;
+    &lt;path class=&quot;cls-2&quot; d=&quot;M179.13,157.76c.9-.9,1.81-1.87,2.71-2.84h-.02c1.68-1.91,3.33-3.72,5.29-5.39.59-.53,1.17-1,1.72-1.38.16-.16.16-.48.32-.63-.79.32-1.27.95-2.06,1.27-.16,0-.32-.16-.16-.32.56-.42,1.13-.85,1.69-1.27-.03,0-.07,0-.11,0-.16,0-.16-.16-.16-.32-2.06-.32-3.65,1.11-5.07,2.38-.32.16-.63-.16-.79-.16-2.38.79-4.12,2.85-6.5,3.8v-.32c-.95.32-1.87.89-2.85,1.11-1.43.32-2.69.16-3.96.16-1.92.19-3.84.62-5.76,1.03-.06.01-.11.03-.17.04-1.03.28-2,.67-2.95,1.19-.04.02-.07.04-.11.06-.08.1-.16.19-.23.27-.34.37-.63.72-1.09.95-.97.5-1.77,1.36-2.63,2.06-.06.05-.16.07-.25.08-.85.82-1.69,1.64-2.55,2.44-.06.06-.31.09-.48.06,0,0,.01,0,.01-.01.03-.05.06-.1.09-.15.13-.22.27-.45.41-.67.15-.25.31-.49.47-.74.22-.33.44-.65.67-.96.06-.08.04-.15,0-.21-.05-.05-.13-.08-.22-.08.79-.77,1.73-1.42,2.66-1.99,0,0,0-.02,0-.03-.11.04-.26-.05-.18-.16.1-.14.18-.29.27-.43.02-.05.03-.09.05-.14-.04-.04-.08-.08-.12-.13-.26.17-.53.32-.74.52-.38.34-.68,1.04-1.25,1.03-.04,0-.15,0-.24-.03-.07-.01-.13-.03-.17-.06,0-.01.01-.02.02-.04,0-.01.02-.03.02-.04,0-.01.02-.03.02-.04.02-.05.05-.09.08-.14.03-.05.05-.09.08-.14.02-.04.04-.07.06-.11.04-.07.07-.13.11-.2.03-.05.06-.1.08-.14.07-.12.14-.23.2-.35.03-.06.07-.11.1-.17.06-.1.11-.19.17-.29.08-.13,0-.24-.12-.28.29-.38.65-.7,1.09-.95h-.05c.61-.31,1.21-.68,1.82-1.02.09-.08.17-.15.26-.23-.9.3-1.72.71-2.52,1.24,0,0-.21.09-.27.14,0,0-.18.07-.4-.14-.02-.03-.04-.06-.04-.12.16-.32.63-.48.95-.79.16,0,.32,0,.32.16,5.07-3.96,12.04-3.01,17.91-5.07.48-.32.95-.63,1.43-.95.79-.32,1.43-1.11,2.38-1.58,1.27-.95,2.22-2.06,2.69-3.64,0-.16-.16-.32-.16-.32-2.06,2.22-4.44,3.96-6.97,5.23-3.33,1.74-6.97,1.43-10.46,1.9.16-.32.48-.32.79-.32,0-.48.32-.63.63-.95h.48c.16,0,.16-.32.32-.32.32,0,.79-.16.63-.16-.48-.63-1.43.48-2.22,0,.32-.32.16-.79.48-.95h.63c0-.32.32-.63.32-.63,2.38-1.43,4.6-2.54,6.81-3.8-.48,0-.79.48-1.27.16.32,0,0-.48.32-.48,1.74-.48,3.17-1.43,4.91-2.06-.63,0-1.11.48-1.74,0,.32-.16.48-.48.95-.48v-.48c0-.16.16-.16.32-.16-.16,0-.32-.16-.32-.16.16-.32.63-.16.95-.48-.16,0-.48,0-.48-.16.48-.63,1.27-.79,2.06-.95-.16-.32-.63,0-.63-.32,0-.16.16-.16.32-.16h-.32c-.32-.16-.16-.48-.16-.63.95-1.11.95-2.54,1.43-3.8-.16,0-.32,0-.32-.16-1.58,1.74-4.12,2.38-6.5,3.01h-.79c-.79.32-1.9.32-2.69-.16-.63-.32-.95-.79-1.58-1.27-1.27-.79-2.54-1.43-3.96-1.9-3.96-1.27-8.08-1.9-12.2-1.74,1.74-.95,3.67-1.03,5.55-1.58,2.69-.79,5.23-1.74,8.08-1.58-.48-.16-1.11,0-1.58,0-2.22-.16-4.44.48-6.81.95-1.58.32-3.01.95-4.6,1.27-.95.32-1.43,1.27-2.54,1.11v-.48c1.58-1.9,3.49-3.8,6.02-3.96,2.85-.48,5.55,0,8.4.32,2.06.16,3.96.63,6.02,1.11.79,0,.95,1.27,1.59,1.43.95.32,1.9,0,2.85.63,0-.32-.16-.63,0-.95.63-.63,1.43.16,2.06-.16,1.27-.79-1.11-2.22-1.74-3.33,0-.16.16-.32.16-.32,1.27,1.11,2.22,2.38,3.8,3.17.79.32,2.69.79,2.38-.16-.79-1.74-2.38-3.17-3.64-4.75v-.63c-.32,0-.32-.16-.48-.32v-.63c-.63-.32-.48-.95-.79-1.43-.48-.79-.16-1.9-.48-2.85-.32-.95-.48-1.74-.63-2.69-.48-2.69-1.11-5.07-1.43-7.61-.32-3.01,1.74-5.39,3.17-8.08,1.11-1.9,2.38-3.8,4.44-5.07.48-1.9,1.74-3.49,3.01-5.07,1.27-1.55,3.37-2.49,4.89-3.17,2.21-.99,4.21-1.61,4.21-1.61h-108.76v83.86h77.02c3.02-2.17,6.03-3.2,10.24-5.28,1.99-.98,6.54-3.07,8.08-4.61Z&quot;/&gt;
+    
+    &lt;!-- Red section of the flag --&gt;
+    &lt;path class=&quot;cls-4&quot; d=&quot;M314.41,83.78h-90.21s.17.03.86.4c.73.39,1.68.9,2.28,1.21,1.16.61,2.29,1.37,3.02,2.54.32.48.79,1.43.48,2.06-.32.79-.48,2.06-1.27,2.38-.95.48-2.22.48-3.33.32-.63,0-1.27-.16-1.9-.32,2.38.95,4.6,2.06,6.18,4.28.16.32.79.48,1.43.48.16,0,.16.32.16.48-.32.32-.63.48-.48.95h.48c.79-.32.63-1.9,1.74-1.43.79.48,1.11,1.58.63,2.38-.63.63-1.27,1.11-1.9,1.58-.16.32-.16.79,0,1.11.48.63.63,1.27.79,1.9.48,1.11.63,2.38,1.11,3.49.63,2.38,1.27,4.75,1.11,7.13,0,1.27-.63,2.38-.16,3.64.32,1.27,1.11,2.22,1.74,3.33.63.95,1.27,1.58,1.74,2.54.95,1.58,2.69,3.17,1.9,5.07-.48,1.11-2.22.95-3.33,1.58-.95.79-.16,2.06.32,2.85.79,1.43-.95,2.38-2.06,2.85.32.48.95.32,1.11.63.16.79.95,1.27.48,2.06-.63.95-2.54,1.43-1.58,2.85.63,1.11.22,2.34-.16,3.49-.48,1.43-1.74,2.06-2.85,2.38-.95.32-2.06.32-3.01.16-.32-.16-.63-.32-.95-.32-2.69-.32-5.39-1.11-8.08-1.11-.79.16-1.58.32-2.22.63-.72.53-1.35,1.1-1.92,1.7,0,0-.01.01-.02.02-.12.13-.23.25-.35.38-.07.08-.14.16-.2.24-.05.05-.09.11-.13.16-.46.58-.88,1.19-1.25,1.83-.02.04-.05.08-.07.12-.04.07-.08.15-.12.22-.52.96-.91,1.95-1.2,2.91-1.08,3.63-.61,6.74.15,7.5.21.21,5.23,1.76,8.73,3.32,1.64.73,2.79,1.29,3.74,1.89h88.59v-83.86Z&quot;/&gt;
+    
+    &lt;!-- Gray section (middle of flag) --&gt;
+    &lt;path class=&quot;cls-5&quot; d=&quot;M229.56,114.38c.63.16,1.58.16,1.58.48-.32,1.27-2.22,1.58-3.17,2.85h-.48c-.48.32-.32,1.11-.79,1.11-.48-.16-.95,0-1.43.16.63.63,1.43,1.11,2.38.95.16,0,.48.32.48.63,0,0,.16,0,.32-.16.16,0,.32,0,.32.16v.63c-.48.63-1.27.32-1.9.48,1.27.32,2.54.32,3.64,0,.95-.32,0-1.9.63-2.69-.32,0,0-.48-.32-.48.32-.32.63-.79.95-.95.32,0,.79-.16.95-.48,0-.32-.63-.47-.48-.79.95-.63,1.74-1.58,1.43-2.54-.16-.48-1.43-.48-2.22-.79-.79-.32-1.74,0-2.69.16-.79,0-1.59.48-2.38.63-1.11.32-2.06.95-3.01,1.58,1.11-.48,2.22-.63,3.49-.95.95,0,1.76-.23,2.69,0Z&quot;/&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+}</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
